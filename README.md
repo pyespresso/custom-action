@@ -80,6 +80,7 @@ To know the status of the Change Request GET.
 
 ## Support Model
 
+
 ServiceNow customers may request support through the [Now Support (HI) portal](https://support.servicenow.com/nav_to.do?uri=%2Fnow_support_home.do).
 
 ## Governance Model
