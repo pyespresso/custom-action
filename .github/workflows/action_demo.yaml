@@ -1,17 +1,44 @@
-jobs:
-  Explore-Github-Actions:
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo test job 1
-    - run: echo test job 2
-    - run: echo test job 3
-    - run: echo test job 4
-    - run: echo test job 5
-    - run: echo test job 6
-    - run: echo test job 7
-    - run: echo test job 8
-    - run: echo test job 9
-    - run: echo test job 10
 name: Github Action Demo
 'on': [push]
 run-name: ${{ github.actor }} is testing out GitHub Actions
+jobs:
+  Explore-Github-Actions-1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 1
+  Explore-Github-Actions-2:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 2
+  Explore-Github-Actions-3:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 3
+  Explore-Github-Actions-4:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 4
+  Explore-Github-Actions-5:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 5
+  Explore-Github-Actions-6:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 6
+  Explore-Github-Actions-7:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 7
+  Explore-Github-Actions-8:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 8
+  Explore-Github-Actions-9:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 9
+  Explore-Github-Actions-10:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo test job 10
